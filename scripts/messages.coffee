@@ -5,7 +5,7 @@
 module.exports = (robot) ->
 
   robot.respond /hi/gim, (res) ->
-    res.send "test2 hi"
+    res.respond res.envelope.user.name + "hi"
 
   # robot.respond /hello/gim, (res) ->
   #   res.send " > Hello!"
