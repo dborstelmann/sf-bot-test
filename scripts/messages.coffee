@@ -5,7 +5,7 @@
 module.exports = (robot) ->
 
   robot.respond /soon/gim, (res) ->
-    res.send "> BROKEHi Slalom STL, coming soon to Slack channels near you is the bot to end all bots.  If you have input on what you'd like out of me, please share in #bonobos-ideas.  Thanks!"
+    res.send "> testbot hi"
 
   # robot.respond /alana/gim, (res) ->
   #   res.send " > Alana, what you ask for is impossible.  I have no hands!"
