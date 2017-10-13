@@ -3,6 +3,9 @@
   "scripts": {
   },
   "env": {
+      "HUBOT_SLACK_TOKEN": {
+          "value": "testing"
+      }
   },
   "formation": {
   },
