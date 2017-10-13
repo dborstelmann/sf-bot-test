@@ -4,7 +4,7 @@
 
 module.exports = (robot) ->
 
-  robot.respond /soon/gim, (res) ->
+  robot.respond /hi/gim, (res) ->
     res.send "> testbot hi"
 
   # robot.respond /alana/gim, (res) ->
